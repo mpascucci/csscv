@@ -75,7 +75,7 @@ data = {
         [
             {
                 "where" : "Attitude",
-                "comment": "Collaborative, curious, hard working, seeking beauty in what I do. Undestanding and learning are my first motivations.",
+                "comment": "Collaborative, curious, hard working, seeking beauty in what I do. Understanding and learning are my first motivations.",
                 "display" : true
             },
             {
@@ -91,6 +91,11 @@ data = {
             {
                 "where" : "Interests",
                 "comment": "playing music (piano/trombone) since the age of 12, drawing, DIY, cycling.",
+                "display" : true
+            },
+            {
+                "where" : "other exp",
+                "comment": "Organization of 8 editions of an international music festival.",
                 "display" : true
             }
         ]
