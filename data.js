@@ -5,9 +5,9 @@ data = {
         "telephone": "+33.(0)6.43.79.25.74",
         "addressLine1": "64, rue Planchat",
         "addressLine2": "75020 - Paris",
-        "motto": "Dynamic and enthusiast computer engineer with a scientific mind who always loves good challenges."
+        "motto": "A scientific mind in a dynamic and enthusiast computer engineer who is always ready for good challenges."
     },
-    "educationList": 
+    "educationList":
         [   {
                 "title": "PostDoc",
                 "where" : "LaMME",
@@ -60,7 +60,7 @@ data = {
                 "display" : true
             },
         ],
-    "experienceList": 
+    "experienceList":
         [
             {
                 "title": "Lead software engineer and project manager",
@@ -71,7 +71,7 @@ data = {
                 "display" : true
             }
         ],
-    "Miscellaneous": 
+    "Miscellaneous":
         [
             {
                 "where" : "Attitude",

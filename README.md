@@ -1,4 +1,5 @@
-# A responsive CV template
+# A responsive 1-page CV template
+Written in pure javascript and css. No other framework needed.
 
 ## install
 Clone or download the project
