@@ -49,7 +49,7 @@ data = {
                 "where": "DESY",
                 "date" : "June – October 2011",
                 "comment" : "Deutsches Elektronen-Synchrotron - Center for Free-Electron Laser Science (CFEL). Development of a calibration software (and GUI) for x-ray detectors",
-                "using" : "Using: C, Cairo, Gtk"
+                "using" : "Using: C, Cairo, Gtk",
                 "display" : true
             },
             {
