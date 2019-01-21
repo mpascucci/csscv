@@ -65,7 +65,7 @@ data = {
                 "title": "Lead software engineer and project manager",
                 "where" : "MSF Foundation",
                 "date" : "dec 2017 - now",
-                "comment" : "Developing an <b>open-source</b> mobile biomedical application for Médecins Sans Frontières (MSF) Foundation. The app uses <b>AI</b> and <b>image processing</b>. Hired a software developper to comply with project deadlines.",
+                "comment" : "Developing an <b>open-source</b> <a href='https://mpascucci.github.io/ASTapp-overview/en/'>mobile biomedical application</a> for Médecins Sans Frontières (MSF) Foundation. The app uses <b>AI</b> and <b>image processing</b>. Hired a software developper to comply with project deadlines.",
                 "skills": "Using: Python, Flask, openCV, C++, SQL, Android, JS, CSS, ReactJS, Git",
                 "display" : true
             }
