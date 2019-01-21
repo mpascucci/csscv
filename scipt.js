@@ -29,7 +29,7 @@ function fillSection(sectionName) {
                     element = document.createElement("p");
                     element.setAttribute("class", key + "Item");
                     element.innerHTML = item[key];
-                    entry.appendChild(element); 
+                    entry.appendChild(element);
                 }
             }
             row.appendChild(lCell);
@@ -50,8 +50,8 @@ for (var i=0; i<specialSections.length;i++) {
 }
 
 
+// fill in the content of spacial tags id
 var nodes = document.getElementsByTagName("*");
-
 for (i=0; i<nodes.length; i++) {
     node = nodes[i];
     if (node.id) {
@@ -78,4 +78,3 @@ for (i=0; i<nodes.length; i++) {
         }
     }
 }
-

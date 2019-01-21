@@ -30,13 +30,13 @@ section.header {
     flex-direction: column;
     background-color: var(--header-color);
     padding: var(--padding) var(--padding-sides);
-    color: var(--header-fg-color); 
+    color: var(--header-fg-color);
     border-bottom: 5px solid var(--fg-color-2);
 }
 section.footer {
     display: flex;
     background-color: var(--header-color);
-    color: var(--header-fg-color); 
+    color: var(--header-fg-color);
     border-top: 5px solid var(--fg-color-2);
     min-height: 50px;
 }
@@ -73,27 +73,22 @@ section.mainTable {
     display: block;
     box-sizing: border-box;
     padding-bottom: var(--padding);
-    /* border: 1px solid black; */
 }
 
 .listEntry {
-    /* box-sizing: border-box; */
     background-color: aliceblue;
     border-left: 5px solid powderblue;
     padding: 0.5em;
     border-radius: 5px;
 }
 .sectionTitle {
-    /* padding-right: 1em; */
     padding-bottom: 3px;
     color: var(--section-color);
-    /* font-weight: bold; */
     font-size: 150%;
     border-bottom: 2px solid var(--section-color);
     font-family: "gill sans";
     text-transform: uppercase;
-    /* border-left: 2px solid var(--section-color); */
-    /* border-radius: 25px; */
+
 
 }
 .tableRow {
@@ -102,7 +97,6 @@ section.mainTable {
 .tableCell {
     display: table-cell;
     min-width: 200px;
-    /* padding-right: 2em; */
     padding-top:1em;
 }
 
@@ -145,11 +139,11 @@ p.whereItem {
         --padding-sides: 1em;
     }
     .tableCell{
-       display: block; 
+       display: block;
        padding:0;
     }
     .tableRow{
-        display: block; 
+        display: block;
         padding-top: 1em;
      }
      div.headerMain {
