@@ -69,6 +69,11 @@ for (i=0; i<nodes.length; i++) {
             if (content) {
               node.removeAttribute("hidden");
             }
+            if (node.localName == "img") {
+              node.src = content;
+              // node.setAttribute("style",`background:url(${content}) center no-repeat;`);
+              continue;
+            }
             if (node.localName == "a") {
                 // the name contains an '@'
                 if (content.indexOf('@') > -1) {

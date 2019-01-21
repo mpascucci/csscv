@@ -18,6 +18,7 @@
     --entry-bg-color: rgba(176,224,230,0.2);
     --entry-border-color:rgba(176,224,230,1);
     --entry-bg-color-hover:rgba(176,224,230,0.5);
+    --photo-size: 200px;
 }
 
 body {
@@ -63,7 +64,6 @@ i:hover {
   font-size: 1.5em;
 }
 
-
 section.footer {
     display: flex;
     background-color: var(--header-color);
@@ -89,8 +89,20 @@ div.headerMain .leftBox {
     justify-content: flex-start;
 }
 
-#photo {
+.image-cropper {
+    max-width: var(--photo-size);
+    height: auto;
     padding-right: 20px;
+}
+.rounded {
+    display: block;
+    height: var(--photo-size);
+    width: var(--photo-size);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
 }
 
 section.mainTable {
@@ -189,7 +201,7 @@ p.whereItem {
      }
      div.headerMain .leftBox {
         flex-direction: column;
-        justify-content: flex-start;
+        align-items: center;
     }
      div.headerMain {
         text-align: center;
@@ -205,7 +217,7 @@ p.whereItem {
     p.dateItem {
         display: inline-block;
     }
-    #photo {
-        padding-right: 0;
+    .image-cropper {
+        padding: 0;
     }
 }
