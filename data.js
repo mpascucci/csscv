@@ -5,7 +5,7 @@ data = {
         "telephone": "+33.(0)6.43.79.25.74",
         "addressLine1": "64, rue Planchat",
         "addressLine2": "75020 - Paris",
-        "motto": "A scientific mind in a dynamic and enthusiast computer engineer who is always ready for good challenges."
+        "motto": "A dynamic and enthusiast computer engineer with a scientific mind who is always ready for good challenges."
     },
     "educationList":
         [   {
