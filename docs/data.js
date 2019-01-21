@@ -27,7 +27,7 @@ data = {
                 "title": "MS in computer science",
                 "where" : "CNAM",
                 "date" : "dec 2016",
-                "comment" : "Secure and Embedded Systems - Conservatoire National des Arts et Metiers, with a 6 month internship developing a driver for a 2-axis plotter and a rudimental static type-checker for python.",
+                "comment" : "Secure Embedded Systems - Conservatoire National des Arts et Metiers, with a 6 month internship developing a driver for a 2-axis plotter and a rudimental static type-checker for python.",
                 "display" : true
             },
             {
