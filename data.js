@@ -1,10 +1,18 @@
+/*
+ * This file is part of cssCV
+ * cssCV is released under the MIT licence
+ *
+ * Author: Marco pascucci, 2019
+ * mpascucci.github.io
+*/
+
 data = {
     "personal" : {
         "name": "Marco Pascucci",
         "email": "marco.pascucci@univ-evry.fr",
-        "telephone": "+33.(0)6.43.79.25.74",
-        "addressLine1": "64, rue Planchat",
-        "addressLine2": "75020 - Paris",
+        // "telephone" : "0000000",
+        // "addressLine1": "",
+        "addressLine2": "75020 - Paris (France)",
         "motto": "A dynamic and enthusiast computer engineer with a scientific mind who is always ready for good challenges."
     },
     "educationList":

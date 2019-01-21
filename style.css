@@ -1,3 +1,11 @@
+/*
+ * This file is part of cssCV
+ * cssCV is released under the MIT licence
+ *
+ * Author: Marco pascucci, 2019
+ * mpascucci.github.io
+*/
+
 :root {
     --fg-color: black;
     --header-fg-color: rgb(255, 255, 255);
@@ -33,6 +41,11 @@ section.header {
     color: var(--header-fg-color);
     border-bottom: 5px solid var(--fg-color-2);
 }
+
+div.address p {
+  margin:0;
+}
+
 section.footer {
     display: flex;
     background-color: var(--header-color);

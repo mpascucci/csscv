@@ -1,3 +1,11 @@
+/*
+ * This file is part of cssCV
+ * cssCV is released under the MIT licence
+ *
+ * Author: Marco pascucci, 2019
+ * mpascucci.github.io
+*/
+
 var element;
 
 function fillSection(sectionName) {
@@ -58,6 +66,19 @@ for (i=0; i<nodes.length; i++) {
         src = node.id.split("-");
         try {
             content = data[src[0]][src[1]];
+            if (node.localName == "a") {
+                // the name contains an '@'
+                if (content.indexOf('@') > -1) {
+                    // it is a mail address
+                    node.href = "mailto:"+content;
+                } else {
+                    // it is a normal link
+                    node.href = content;
+                }
+            }
+            if (content) {
+              node.innerHTML = content;
+            }
         }
         catch(error) {
             if (node.id.indexOf('-') > -1) {
@@ -65,16 +86,6 @@ for (i=0; i<nodes.length; i++) {
             }
             continue;
         }
-        node.innerHTML = content;
-        if (node.localName == "a") {
-            // the name contains an '@'
-            if (content.indexOf('@') > -1) {
-                // it is a mail address
-                node.href = "mailto:"+content;
-            } else {
-                // it is a normal link
-                node.href = content;
-            }
-        }
+
     }
 }
