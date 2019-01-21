@@ -10,9 +10,13 @@ data = {
     "personal" : {
         "name": "Marco Pascucci",
         "email": "marco.pascucci@univ-evry.fr",
+        "emailIcon": "marco.pascucci@univ-evry.fr",
         // "telephone" : "0000000",
         // "addressLine1": "",
         "addressLine2": "75020 - Paris (France)",
+        "github" : "http://mpascucci.github.io/",
+        // "linkedinIcon" : "http://mpascucci.github.io/",
+        "scholarIcon" : "https://scholar.google.fr/citations?user=JHuiyroAAAAJ",
         "motto": "A dynamic and enthusiast computer engineer with a scientific mind who is always ready for good challenges."
     },
     "educationList":

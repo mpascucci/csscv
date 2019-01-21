@@ -15,6 +15,9 @@
     --section-color: green;
     --padding: 3em;
     --padding-sides: 4em;
+    --entry-bg-color: rgba(176,224,230,0.2);
+    --entry-border-color:rgba(176,224,230,1);
+    --entry-bg-color-hover:rgba(176,224,230,0.5);
 }
 
 body {
@@ -29,7 +32,7 @@ a {
 }
 
 div.page {
-    max-width: 1000px;
+    max-width: 1080px;
     margin: auto;
 }
 
@@ -42,9 +45,24 @@ section.header {
     border-bottom: 5px solid var(--fg-color-2);
 }
 
-div.address p {
+section.header p {
   margin:0;
 }
+div.nameBox p {
+  margin-bottom: 0.5em;
+}
+
+div.nameBox p.icons{
+    font-size: 2em;
+}
+
+i {
+  transition: font-size 0.5s;
+}
+i:hover {
+  font-size: 1.5em;
+}
+
 
 section.footer {
     display: flex;
@@ -57,7 +75,9 @@ section.footer {
 section.footer div {
     margin: auto;
 }
-
+section.footer p {
+  text-align: center;
+}
 
 div.headerMain {
     display: flex;
@@ -70,7 +90,7 @@ div.headerMain .leftBox {
 }
 
 #photo {
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 section.mainTable {
@@ -89,17 +109,22 @@ section.mainTable {
 }
 
 .listEntry {
-    background-color: aliceblue;
-    border-left: 5px solid powderblue;
+    background-color: var(--entry-bg-color);
+    border-left: 5px solid var(--entry-border-color);
     padding: 0.5em;
     border-radius: 5px;
+    transition: all 0.3s;
 }
+.listEntry:hover {
+    background-color: var(--entry-bg-color-hover);
+}
+
 .sectionTitle {
     padding-bottom: 3px;
     color: var(--section-color);
     font-size: 150%;
     border-bottom: 2px solid var(--section-color);
-    font-family: "gill sans";
+    font-family: "gill sans", Verdana, Geneva, Tahoma, sans-serif;;
     text-transform: uppercase;
 
 
@@ -179,5 +204,8 @@ p.whereItem {
     }
     p.dateItem {
         display: inline-block;
+    }
+    #photo {
+        padding-right: 0;
     }
 }

@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
         <script src="data.js"></script>
 
         <!--
@@ -19,10 +20,16 @@
             <section class="header">
                 <div class="headerMain">
                     <div class="leftBox">
-                    <i id="photo" class="fas fa-user-circle" style="font-size: 12em;"></i>
+                    <i id="photo" class="fas fa-user-circle" style="font-size: 12em !important;"></i>
                     <div class="nameBox">
-                        <span id="personal-name"></span><br>
-                        <a id="personal-email"></a>
+                        <p id="personal-name"></p>
+                        <p><a id="personal-email" hidden></a></p>
+                        <p class="icons">
+                            <a id="personal-github" hidden><i class="fab fa-github"></i></a>
+                            <a id="personal-emailIcon" hidden><i class="fas fa-envelope"></i></a>
+                            <a id="personal-scholarIcon" hidden><i class="ai ai-google-scholar"></i></a>
+                            <a id="personal-linkedinIcon" hidden><i class="fab fa-linkedin"></i></a>
+                        </p>
                     </div>
                     </div>
                     <div class="address">
@@ -46,7 +53,15 @@
                 </div>
             </section>
             <section class="footer">
-                <div>© 2019 - Marco Pascucci</div>
+                <div clas="footerContent">
+                  <p>
+                    done with cssCV
+                    <a href="https://github.com/mpascucci/csscv">
+                    <i class="fab fa-github big-icon"></i> Fork me!
+                    </a>
+                  </p>
+                  <p>© 2019 - Marco Pascucci</p>
+                </div>
             </section>
         </div>
     </body>

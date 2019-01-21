@@ -66,6 +66,9 @@ for (i=0; i<nodes.length; i++) {
         src = node.id.split("-");
         try {
             content = data[src[0]][src[1]];
+            if (content) {
+              node.removeAttribute("hidden");
+            }
             if (node.localName == "a") {
                 // the name contains an '@'
                 if (content.indexOf('@') > -1) {
@@ -74,7 +77,11 @@ for (i=0; i<nodes.length; i++) {
                 } else {
                     // it is a normal link
                     node.href = content;
+                };
+                if (node.innerHTML == "") {
+                    node.innerHTML = content;
                 }
+                continue;
             }
             if (content) {
               node.innerHTML = content;
