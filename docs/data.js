@@ -62,7 +62,7 @@ data = {
     "experienceList": 
         [
             {
-                "title": "Lead software engieneer and project manager",
+                "title": "Lead software engineer and project manager",
                 "where" : "MSF Foundation",
                 "date" : "dec 2017 - now",
                 "comment" : "Developing an <b>open-source</b> mobile biomedical application for Médecins Sans Frontières (MSF) Foundation. The app uses <b>AI</b> and <b>image processing</b>. Hired a software developper to comply with project deadlines.",
