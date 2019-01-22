@@ -8,7 +8,8 @@
 
 data = {
     "personal" : {
-        "photo" : "https://d6d2h4gfvy8t8.cloudfront.net/8481511-orig.jpg",
+        // "photo" : "https://d6d2h4gfvy8t8.cloudfront.net/8481511-orig.jpg",
+        "photo" : "https://mpascucci.github.io/author/admin/avatar_hu6ccec921c4451b0e1cbfcccd8e44bedf_387837_250x250_fill_q75_box_center.jpg",
         "name": "Marco Pascucci",
         "email": "marco.pascucci@univ-evry.fr",
         "emailIcon": "marco.pascucci@univ-evry.fr",
