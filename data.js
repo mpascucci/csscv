@@ -99,7 +99,7 @@ data = {
             },
             {
                 "where" : "Publications",
-                "comment": "Pascucci et al. - arXiv:1710.05056 2018<br> Pascucci et al. - Physical Review Letters 2016 <br> Stellato et al. - Eur Biophys J. 2014; <br>",
+                "comment": "Pascucci et al. - Nature Com. 2019<br> Pascucci et al. - Physical Review Letters 2016 <br> Stellato et al. - Eur Biophys J. 2014; <br>",
                 "display" : true
             },
             {
