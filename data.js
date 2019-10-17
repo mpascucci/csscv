@@ -26,7 +26,9 @@ data = {
                 "title": "PostDoc",
                 "where" : "LaMME",
                 "date" : "dec 2017 - now",
-                "comment" : "Laboratoire de Mathématiques et Modélisation d'Évry.  Directed a programmer intern, teaching statistics and computer languages.",
+                "comment" : "Laboratoire de Mathématiques et Modélisation d'Évry.<br>"+
+                  "Directed an intern intern,<br>"+
+                  "<b>Teaching:</b> statistics and computer languages (Python / R).",
                 "display" : true
             },
             {
@@ -77,11 +79,15 @@ data = {
     "experienceList":
         [
             {
-                "title": "Lead software engineer and project manager",
+                "title": "Lead developer / R&D",
                 "where" : "MSF Foundation",
                 "date" : "dec 2017 - now",
-                "comment" : "Developing an <b>open-source</b> <a href='https://mpascucci.github.io/ASTapp-overview/en/'>mobile biomedical application</a> for Médecins Sans Frontières (MSF) Foundation. The app uses <b>AI</b> and <b>image processing</b>. Hired a software developper to comply with project deadlines.",
-                "skills": "Using: Python, Flask, openCV, C++, SQL, Android, JS, CSS, ReactJS, Git",
+                "comment" : "Developing an <b>open-source</b> <a href='https://fondation.msf.fr/projets/astapp-un-outil-de-diagnostic-gratuit-pour-tester-la-resistance-aux-antibiotiques'>mobile biomedical application</a> for Médecins Sans Frontières (MSF) Foundation." +
+                  "The app uses <b>AI</b> and <b>image processing</b>. Hired a software developper to comply with project deadlines." +
+                  "<br>" +
+                  "The project won the <a href='https://www.blog.google/outreach-initiatives/google-org/ai-impact-challenge-grantees/'>Google AI Impact Challenge 2019</a>, being selected among more than 2600 comptetitors worldwide, granted 1.3M$ "+
+                  "and further boosted by the close collaboration of Google fellows.",
+                "skills": "Skills: Image processing, Python, openCV, C++, Cython, Android, js, Git",
                 "display" : true
             }
         ],
