@@ -86,13 +86,13 @@ data = {
                 "where" : "MSF Foundation",
                 "date" : "dec 2017 - now",
                 "comment" : "Developing an <b>open-source</b> <a href='https://fondation.msf.fr/projets/astapp-un-outil-de-diagnostic-gratuit-pour-tester-la-resistance-aux-antibiotiques'>mobile biomedical application</a> for <b>Médecins Sans Frontières</b> (MSF) Foundation for fighting antibiotic resistance. " +
-                  "The app uses <b>image processing</b> and <b>AI</b> on a smartphone." +
+                  "The app is an offline <b>AI</b> that assists lab technicians to perform a biomedical test from an image taken with a smartphone." +
                   "<br>" +
-                  "Supported by a proof of concept and a working demo, the project won the <a href='https://www.blog.google/outreach-initiatives/google-org/ai-impact-challenge-grantees/'>Google AI Impact Challenge 2019</a>, being selected among more than 2600 comptetitors worldwide, granted 1.3M$ "+
-                  "and further boosted by the close collaboration of Google fellows."+
+                  "Supported by a proof of concept and a working demo, the project won the <a href='https://www.blog.google/outreach-initiatives/google-org/ai-impact-challenge-grantees/'>Google AI Impact Challenge 2019</a>, being selected among more than 2600 applications worldwide, granted 1.3M$ "+
+                  "and further boosted by the close collaboration of Google fellows, working together on the different aspects of the app development."+
                   "<br>"+
                   "Hired a software developper to comply with project deadlines.",
-                "skills": "Skills: Image processing, Python, openCV, C++, Cython, Android, js, Git",
+                "dev skills": "Skills: Image processing, Python, C++, openCV,  Cython, js, Git",
                 "display" : true
             }
         ],
