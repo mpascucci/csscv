@@ -19,15 +19,18 @@ data = {
         "github" : "http://mpascucci.github.io/",
         // "linkedinIcon" : "http://mpascucci.github.io/",
         "scholarIcon" : "https://scholar.google.fr/citations?user=JHuiyroAAAAJ",
-        "motto": "A dynamic and enthusiast computer engineer with a scientific mind who is always ready for good challenges."
+        "motto": "A dynamic and enthusiast scientific developer who is always ready for good challenges."
     },
     "educationList":
         [   {
                 "title": "PostDoc",
                 "where" : "LaMME",
                 "date" : "dec 2017 - now",
-                "comment" : "Laboratoire de Mathématiques et Modélisation d'Évry.<br>"+
-                  "Directed an intern intern,<br>"+
+                "comment" : "Laboratoire de Mathématiques et Modélisation d'Évry LaMME (UMR 8071).<br>"+
+                  "in collaboration with MSF for the development of the app project (see work experience).<br>"+
+                  "Designed <b>ad-hoc algorithms</b> for image processing and for data preprocessing for Machine Learning. "+
+                  "Created a <b>C++ image processing library</b>, which is embedded in the Android/iOS app. Wrote Python wrappings for the same library. "+
+                  "Designed an ExpertSystem engine and a Domains Specific Language (DLS) for microbiologists and a web interfaces for internal test purposes. Directed an intern.<br>"+
                   "<b>Teaching:</b> statistics and computer languages (Python / R).",
                 "display" : true
             },
@@ -82,11 +85,13 @@ data = {
                 "title": "Lead developer / R&D",
                 "where" : "MSF Foundation",
                 "date" : "dec 2017 - now",
-                "comment" : "Developing an <b>open-source</b> <a href='https://fondation.msf.fr/projets/astapp-un-outil-de-diagnostic-gratuit-pour-tester-la-resistance-aux-antibiotiques'>mobile biomedical application</a> for Médecins Sans Frontières (MSF) Foundation." +
-                  "The app uses <b>AI</b> and <b>image processing</b>. Hired a software developper to comply with project deadlines." +
+                "comment" : "Developing an <b>open-source</b> <a href='https://fondation.msf.fr/projets/astapp-un-outil-de-diagnostic-gratuit-pour-tester-la-resistance-aux-antibiotiques'>mobile biomedical application</a> for <b>Médecins Sans Frontières</b> (MSF) Foundation for fighting antibiotic resistance. " +
+                  "The app uses <b>image processing</b> and <b>AI</b>" +
                   "<br>" +
-                  "The project won the <a href='https://www.blog.google/outreach-initiatives/google-org/ai-impact-challenge-grantees/'>Google AI Impact Challenge 2019</a>, being selected among more than 2600 comptetitors worldwide, granted 1.3M$ "+
-                  "and further boosted by the close collaboration of Google fellows.",
+                  "Supported by a proof of concept and a working demo, the project won the <a href='https://www.blog.google/outreach-initiatives/google-org/ai-impact-challenge-grantees/'>Google AI Impact Challenge 2019</a>, being selected among more than 2600 comptetitors worldwide, granted 1.3M$ "+
+                  "and further boosted by the close collaboration of Google fellows."+
+                  "<br>"+
+                  "Hired a software developper to comply with project deadlines.",
                 "skills": "Skills: Image processing, Python, openCV, C++, Cython, Android, js, Git",
                 "display" : true
             }
