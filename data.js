@@ -27,7 +27,7 @@ data = {
                 "title": "About me",
                 "where" : "About me",
                 "date" : "",
-                "comment" : "My education, research experience and interests are oriented twards signal processing and computer science. I taught classes of scientific programming (R/Python) probability and statistics. I have supervised two Master students.<br>",
+                "comment" : "My education, research experience and interests are oriented towards signal processing and computer science. I taught classes of scientific programming (R/Python), probability and statistics. I have supervised two Master students.<br>",
                 "display" : true
             },
             {
@@ -35,9 +35,9 @@ data = {
                 "where" : "LaMME",
                 "date" : "dec 2017 - now",
                 "comment" : "Laboratoire de Mathématiques et Modélisation d'Évry LaMME (UMR 8071).<br>"+
-                  "in collaboration with MSF (see projects).<br>"+
-                  "I designed ad-hoc image processing algorithms and implemented a C++ library, which is embedded in a mobile app. I wrote Python wrappings for the same library."+
-                  " I Designed an ExpertSystem engine and a Domains Specific Language (DLS) for microbiologists and a web interfaces for internal test purposes.",
+                  "in collaboration with MSF (see Projects).<br>"+
+                  "I designed original image processing algorithms and implemented a C++ library, which is embedded in a mobile app. I wrote Python wrappings for the same library."+
+                  " I designed an ExpertSystem engine and a Domains Specific Language (DLS) for microbiologists plus a web interfaces for internal test purposes.",
                 "display" : true
             },
             {
@@ -59,7 +59,7 @@ data = {
                 "title": "Research intern",
                 "where" : "MSC",
                 "date" : "may - june 2014",
-                "comment" : "Laboratoire Matière et Systemes Complèxes, université Paris Diderot",
+                "comment" : "Laboratoire Matière et Systèmes Complexes, Université Paris Diderot",
                 "display" : true
             },
             {
@@ -91,11 +91,11 @@ data = {
                 "title": "R&D (lead developer)",
                 "where" : "MSF Foundation",
                 "date" : "dec 2017 - now",
-                "comment" : "Creating an <b>open-source</b> <a href='https://fondation.msf.fr/projets/astapp'>mobile-health application</a> for <b>Médecins Sans Frontières</b> (MSF) Foundation for fighting antibiotic resistance. " +
-                  "The app is an offline <b>AI</b> that assists lab technicians to perform a biomedical test from an image taken with a smartphone." +
+                "comment" : "Creating an <b>open-source</b> <a href='https://fondation.msf.fr/projets/astapp'>mobile-health application</a> for <b>Médecins Sans Frontières Foundation</b> (MSF) for fighting antibiotic resistance. " +
+                  "The app is an offline <b>AI</b> that assists lab technicians in reading a biomedical test from an image taken with a smartphone." +
                   "<br>" +
-                  "The project won the <a href='https://www.blog.google/outreach-initiatives/google-org/ai-impact-challenge-grantees/'>Google AI Impact Challenge 2019</a>, being selected among more than 2600 applications worldwide, granted 1.3M$ "+
-                  "and further boosted by the close collaboration of Google fellows, working together on the different aspects of the app development."+
+                  "The project was awarded the <a href='https://www.blog.google/outreach-initiatives/google-org/ai-impact-challenge-grantees/'>Google AI Impact Challenge 2019</a>, among more than 2600 applications worldwide. It was granted 1.3M$ "+
+                  "and further boosted by the close collaboration with Google fellows, working together on the different aspects of the app development."+
                   "<br>"+
                   "Hired a software developper to comply with project deadlines.",
                 "dev skills": "Skills: Image processing, Python, C++, openCV,  Cython, js, Git",
@@ -159,7 +159,7 @@ data = {
             },
             {
                 "where" : "Interests",
-                "comment": "playing music (piano/trombone) since the age of 12, drawing, DIY, cycling.",
+                "comment": "playing music (piano/trombone) since childhood, drawing, DIY, cycling.",
                 "display" : true
             },
             {
