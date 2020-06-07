@@ -37,7 +37,7 @@ data = {
                 "comment" : "Laboratoire de Mathématiques et Modélisation d'Évry LaMME (UMR 8071).<br>"+
                   "in collaboration with MSF (see Projects).<br>"+
                   "I designed original image processing algorithms and implemented a C++ library, which is embedded in a mobile app. I wrote Python wrappings for the same library."+
-                  " I designed an ExpertSystem engine and a Domains Specific Language (DLS) for microbiologists plus a web interfaces for internal test purposes.",
+                  " I designed an ExpertSystem engine and a Domain Specific Language (DSL) for microbiologists plus a web interface for internal test purposes.",
                 "display" : true
             },
             {
