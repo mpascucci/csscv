@@ -32,6 +32,11 @@ a {
     color: var(--fg-color-2);
 }
 
+a.publication {
+    color: var(--fg-color);
+    text-decoration: none;
+}
+
 div.page {
     max-width: 1080px;
     margin: auto;
@@ -178,6 +183,9 @@ p.dateItem {
 }
 p.whereItem {
     font-weight: bold;
+}
+p.paperTitleItem {
+    font-style: italic;
 }
 
 

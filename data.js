@@ -9,44 +9,49 @@
 data = {
     "personal" : {
         // "photo" : "https://d6d2h4gfvy8t8.cloudfront.net/8481511-orig.jpg",
-        "photo" : "https://mpascucci.github.io/author/admin/avatar.jpg",
+        "photo" : "http://makeitaflair.altervista.org/photos/DSCF8365_crop.jpg",
         "name": "Marco Pascucci",
         "email": "marco.pascucci@univ-evry.fr",
         "emailIcon": "marco.pascucci@univ-evry.fr",
         // "telephone" : "0000000",
-        // "addressLine1": "",
+        "addressLine1": "Marco Pascucci",
         "addressLine2": "75020 - Paris (France)",
         "github" : "http://mpascucci.github.io/",
         // "linkedinIcon" : "http://mpascucci.github.io/",
         "scholarIcon" : "https://scholar.google.fr/citations?user=JHuiyroAAAAJ",
-        "motto": "A dynamic and enthusiast scientific developer who is always ready for good challenges."
+        "motto": "Dynamic and enthusiastic postdoc researcher, always ready for a good challenge."
     },
     "educationList":
         [   {
+                "title": "About me",
+                "where" : "About me",
+                "date" : "",
+                "comment" : "My education, research experience and interests are oriented twards signal processing and computer science. I taught classes of scientific programming (R/Python) probability and statistics. I have supervised two Master students.<br>",
+                "display" : true
+            },
+            {
                 "title": "PostDoc",
                 "where" : "LaMME",
                 "date" : "dec 2017 - now",
                 "comment" : "Laboratoire de Mathématiques et Modélisation d'Évry LaMME (UMR 8071).<br>"+
-                  "in collaboration with MSF for the development of the app project (see work experience).<br>"+
-                  "Designed <b>ad-hoc algorithms</b> for image processing and for data preprocessing for Machine Learning. "+
-                  "Created a <b>C++ image processing library</b>, which is embedded in the Android/iOS app. Wrote Python wrappings for the same library. "+
-                  "Designed an ExpertSystem engine and a Domains Specific Language (DLS) for microbiologists and a web interfaces for internal test purposes. Directed an intern.<br>"+
-                  "<b>Teaching:</b> statistics and computer languages (Python / R).",
+                  "in collaboration with MSF (see projects).<br>"+
+                  "I designed ad-hoc image processing algorithms and implemented a C++ library, which is embedded in a mobile app. I wrote Python wrappings for the same library."+
+                  " I Designed an ExpertSystem engine and a Domains Specific Language (DLS) for microbiologists and a web interfaces for internal test purposes.",
                 "display" : true
             },
             {
                 "title": "PhD in physics",
                 "where": "Neurophotonics lab",
                 "date" : "oct 2017",
-                "comment" : "from Paris Descartes univeristy, with a thesis in super-resolution optical microscopy. Directed an undergraduate intern.",
-                "skills" : "Image processing, signal analysis, hardware and software development using Python and Arduino",
+                "comment" : "at Université de Paris. Thesis in super-resolution optical microscopy.",
+                "skills" : "Image processing, optical microscopy and software development using Python and Arduino",
                 "display" : true
             },
             {
                 "title": "MS in computer science",
                 "where" : "CNAM",
                 "date" : "dec 2016",
-                "comment" : "Secure Embedded Systems - Conservatoire National des Arts et Metiers, with a 6 month internship developing a driver for a 2-axis plotter and a rudimental static type-checker for python in OCaml.",
+                "comment" : "Secure Embedded Systems (at Conservatoire National des Arts et Metiers, Paris). I did a 6 month internship developing a driver for a 2-axis plotter and a rudimental static type-checker for python in OCaml.",
                 "display" : true
             },
             {
@@ -82,19 +87,62 @@ data = {
     "experienceList":
         [
             {
-                "title": "Lead developer / R&D",
+                "title": "R&D (lead developer)",
                 "where" : "MSF Foundation",
                 "date" : "dec 2017 - now",
-                "comment" : "Developing an <b>open-source</b> <a href='https://fondation.msf.fr/projets/astapp-un-outil-de-diagnostic-gratuit-pour-tester-la-resistance-aux-antibiotiques'>mobile biomedical application</a> for <b>Médecins Sans Frontières</b> (MSF) Foundation for fighting antibiotic resistance. " +
+                "comment" : "Creating an <b>open-source</b> <a href='https://fondation.msf.fr/projets/astapp'>mobile-health application</a> for <b>Médecins Sans Frontières</b> (MSF) Foundation for fighting antibiotic resistance. " +
                   "The app is an offline <b>AI</b> that assists lab technicians to perform a biomedical test from an image taken with a smartphone." +
                   "<br>" +
-                  "Supported by a proof of concept and a working demo, the project won the <a href='https://www.blog.google/outreach-initiatives/google-org/ai-impact-challenge-grantees/'>Google AI Impact Challenge 2019</a>, being selected among more than 2600 applications worldwide, granted 1.3M$ "+
+                  "The project won the <a href='https://www.blog.google/outreach-initiatives/google-org/ai-impact-challenge-grantees/'>Google AI Impact Challenge 2019</a>, being selected among more than 2600 applications worldwide, granted 1.3M$ "+
                   "and further boosted by the close collaboration of Google fellows, working together on the different aspects of the app development."+
                   "<br>"+
                   "Hired a software developper to comply with project deadlines.",
                 "dev skills": "Skills: Image processing, Python, C++, openCV,  Cython, js, Git",
                 "display" : true
             }
+        ],
+    "Publications":
+        [
+            {
+            "date" : "2020",
+            "journal" : "pending submission",
+            "authors" : "M. Pascucci, et Al.",
+            "paperTitle" : "AntibioGo: the first AI-based mobile application for Antibiotic Resistance Testing",
+            "display" : true,
+            "url" : ""
+            },
+            {
+            "date" : "2020",
+            "journal" : "pending submission",
+            "authors" : "V. Runge, N. Deschamps de Boishebert, M. Pascucci, G. Rigaill",
+            "paperTitle" : "Efficient Change-in-Slope Optimal Partitioning Algorithm in a Finite-Size Parameter Space",
+            "display" : true,
+            "url" : ""
+            },
+            {
+            "date" : "2019",
+            "journal" : "Nat Com",
+            "authors" : "M. Pascucci, S. Ganesan, A. Tripathi, O. Katz, V. Emiliani, M. Guillon",
+            "paperTitle" : "Compressive three-dimensional super-resolution microscopy with speckle-saturated fluorescence excitation",
+            "display" : true,
+            "url" : "https://www.nature.com/articles/s41467-019-09297-5"
+            },
+            {
+            "date" : "2016",
+            "journal" : "Phys Rev Lett",
+            "authors" : "M. Pascucci, G. Tessier, V. Emiliani, M. Guillon",
+            "paperTitle" : "Superresolution imaging of optical vortices in a speckle pattern",
+            "display" : true,
+            "url" : "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.116.093904"
+            },
+            {
+            "date" : "2014",
+            "authors" : "F. Stellato, V. Minicozzi, G. L. Millhauser, M. Pascucci, O. Proux, G. C. Rossi, A. Spevacek, S. Morante",
+            "journal" : "Eur Biophys J",
+            "paperTitle" : "Copper–zinc cross-modulation in prion protein binding",
+            "display" : true,
+            "url" : "https://link.springer.com/article/10.1007/s00249-014-0993-6"
+            },
         ],
     "Miscellaneous":
         [
@@ -106,11 +154,6 @@ data = {
             {
                 "where" : "Languages",
                 "comment": "Italian (native) - French (proficient) - English (fluent) - German (good) - Spanish/portuguese (notions)",
-                "display" : true
-            },
-            {
-                "where" : "Publications",
-                "comment": "Pascucci et al. - Nature Com. 2019<br> Pascucci et al. - Physical Review Letters 2016 <br> Stellato et al. - Eur Biophys J. 2014; <br>",
                 "display" : true
             },
             {

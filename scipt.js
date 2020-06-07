@@ -25,18 +25,29 @@ function fillSection(sectionName) {
             entry.setAttribute("class","listEntry");
             lCell.setAttribute("class","tableCell");
             rCell.setAttribute("class","tableCell");
+            
+            // populate the section
             for (var key in item) {
-                if (["where", "date"].indexOf(key) > -1) {
+                if (["where", "date", "journal"].indexOf(key) > -1) {
                     element = document.createElement("p");
                     element.setAttribute("class", key + "Item");
                     element.innerHTML = item[key];
                     lCell.appendChild(element);
                     continue;
                 }
-                if (item[key] && key != "display") {
+                if (item[key] && ["display","url"].indexOf(key) < 0) {
                     element = document.createElement("p");
                     element.setAttribute("class", key + "Item");
-                    element.innerHTML = item[key];
+                    // add "" around paper title
+                    if (key == "paperTitle") {
+                        item[key] = `"${item[key]}"`;
+                    }
+                    if (item["url"]) {
+                        let url = item["url"];
+                        element.innerHTML = `<a class="publication" href="${url}" target="blank">${item[key]}<\a>`;
+                    } else {
+                        element.innerHTML = item[key];
+                    }
                     entry.appendChild(element);
                 }
             }
@@ -49,7 +60,7 @@ function fillSection(sectionName) {
 }
 
 // fill-in spectial sections
-var specialSections = ["educationList", "experienceList", "Miscellaneous"];
+var specialSections = ["educationList", "experienceList", "Publications", "Miscellaneous"];
 for (var i=0; i<specialSections.length;i++) {
     sectionName = specialSections[i];
     if (document.getElementsByClassName(sectionName).length == 1) {
