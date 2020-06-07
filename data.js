@@ -19,6 +19,7 @@ data = {
         "github" : "http://mpascucci.github.io/",
         // "linkedinIcon" : "http://mpascucci.github.io/",
         "scholarIcon" : "https://scholar.google.fr/citations?user=JHuiyroAAAAJ",
+        "researchGate" : "https://www.researchgate.net/",
         "motto": "Dynamic and enthusiastic postdoc researcher, always ready for a good challenge."
     },
     "educationList":
