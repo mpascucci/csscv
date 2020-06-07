@@ -17,7 +17,7 @@ data = {
         "addressLine1": "Marco Pascucci",
         "addressLine2": "75020 - Paris (France)",
         "github" : "http://mpascucci.github.io/",
-        // "linkedinIcon" : "http://mpascucci.github.io/",
+        "linkedinIcon" : "https://fr.linkedin.com/in/marco-pascucci-302aaa174",
         "scholarIcon" : "https://scholar.google.fr/citations?user=JHuiyroAAAAJ",
         "researchGate" : "https://www.researchgate.net/",
         "motto": "Dynamic and enthusiastic postdoc researcher, always ready for a good challenge."
