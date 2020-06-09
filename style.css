@@ -238,7 +238,7 @@ p.paperTitleItem {
 @media print{   
     body {
         --padding: 2em;
-        --padding-sides: 0.5em;
+        --padding-sides: 1em;
         --photo-size: 4cm;
         font-size:10pt;
     }
@@ -247,17 +247,19 @@ p.paperTitleItem {
     }
     p#personal-name {
         color: black;
+        font-size: 18pt;
     }
     section.header {
         background-color: white;
     }
     div.listEntry {
         background-color: white;
-/*        text-align: justify;*/
-/*        text-justify: inner-word;*/
+        text-align: justify;
+        text-justify: inner-word;
     }
     div.address { 
         color: black;
+        font-size: 10pt;
     }
     .tableCell-left {
         padding-top: 0.6em;
