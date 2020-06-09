@@ -37,10 +37,15 @@ a.publication {
     text-decoration: none;
 }
 
+a#personal-print-icon:hover {
+    color: white;
+}
+
 div.page {
     max-width: 1080px;
     margin: auto;
 }
+
 
 section.header {
     display: flex;
@@ -191,7 +196,7 @@ p.paperTitleItem {
 
 /* Responsive
 ==================================== */
-@media all and (max-width: 700px) {
+@media screen and (max-width: 700px) {
     :root {
         --padding: 2em;
         --padding-sides: 1em;
@@ -228,4 +233,50 @@ p.paperTitleItem {
     .image-cropper {
         padding: 0;
     }
+}
+
+@media print{   
+    body {
+        --padding: 2em;
+        --padding-sides: 0.5em;
+        --photo-size: 4cm;
+        font-size:10pt;
+    }
+    div#social-icons{
+        visibility: hidden;
+    }
+    p#personal-name {
+        color: black;
+    }
+    section.header {
+        background-color: white;
+    }
+    div.listEntry {
+        background-color: white;
+/*        text-align: justify;*/
+/*        text-justify: inner-word;*/
+    }
+    div.address { 
+        color: black;
+    }
+    .tableCell-left {
+        padding-top: 0.6em;
+        min-width: 4.5cm !important;
+        max-width: 5.5cm;
+    }
+    section.footer {
+        background-color: white;
+    }
+    section.footer div {
+        color: black;
+    }
+    #personal-motto {
+        color: black;
+    }
+    
+    a {
+    color: darkblue;
+    text-decoration: none;
+    }
+}
 }

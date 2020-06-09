@@ -23,7 +23,7 @@ function fillSection(sectionName) {
             var rCell = document.createElement("div");
             var entry = document.createElement("div");
             entry.setAttribute("class","listEntry");
-            lCell.setAttribute("class","tableCell");
+            lCell.setAttribute("class","tableCell  tableCell-left");
             rCell.setAttribute("class","tableCell");
             
             // populate the section

@@ -44,8 +44,8 @@ data = {
                 "title": "PhD in physics",
                 "where": "Neurophotonics lab",
                 "date" : "oct 2017",
-                "comment" : "at Université de Paris. Thesis in super-resolution optical microscopy.",
-                "skills" : "Image processing, optical microscopy and software development using Python and Arduino",
+                "comment" : "at Université de Paris. Thesis in super-resolution optical microscopy (adv. M.Guillon, V.Emiliani).",
+                "skills" : "Image processing, super-resolution microscopy",
                 "display" : true
             },
             {

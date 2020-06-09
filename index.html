@@ -25,7 +25,7 @@
                         </div>
                         <div class="nameBox">
                         <p id="personal-name"></p>
-                        <p><a id="personal-email" hidden></a></p>
+                        <div id="social-icons">
                         <p class="icons">
                             <a id="personal-emailIcon" hidden><i class="fas fa-envelope"></i></a>
                             <a id="personal-github" target='blank' hidden><i class="fab fa-github"></i></a>
@@ -33,12 +33,17 @@
                             <a id="personal-researchGate" target='blank' hidden><i class="fab fa-researchgate"></i></a>
                             <a id="personal-linkedinIcon" target='blank' hidden><i class="fab fa-linkedin"></i></a>
                         </p>
+                        <a id="personal-print-icon" style=":hover {color red;}" onclick="window.print();return false;">
+                            <i class="far fa-file-pdf"></i> get PDF (print)
+                        </a>
+                        </div>
                     </div>
                     </div>
                     <div class="address">
                         <p id="personal-telephone"></p>
                         <p id="personal-addressLine1"></p>
                         <p id="personal-addressLine2"></p>
+                        <p><a id="personal-email" hidden></a></p>
                     </div>
                 </div>
                 <span id="personal-motto"></span>
