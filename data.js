@@ -98,7 +98,7 @@ data = {
                   "and further boosted by the close collaboration with Google fellows, working together on the different aspects of the app development."+
                   "<br>"+
                   "Hired a software developper to comply with project deadlines.",
-                "dev skills": "Skills: Image processing, Python, C++, openCV,  Cython, js, Git, Web",
+                "dev skills": "Skills: Image processing, Python, C++, openCV,  Cython, js, Git",
                 "display" : true
             }
         ],
