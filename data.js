@@ -27,7 +27,7 @@ data = {
                 "title": "About me",
                 "where" : "About me",
                 "date" : "",
-                "comment" : "My education, research experience and interests are oriented towards signal processing and computer science. I taught classes of scientific programming (R/Python), probability and statistics. I have supervised two Master students.<br>",
+                "comment" : "My education, research experience and interests are oriented towards computer science and image processing. I enjoy developing software. I have taught classes of scientific programming (R/Python), probability and statistics. I have supervised two Master students.<br>",
                 "display" : true
             },
             {
