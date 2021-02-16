@@ -106,7 +106,7 @@ data = {
             "title": "An AI-based mobile app to fight antibiotic resistance",
             "where" : "MSF Foundation",
             "date" : "dec 2017 - sept 2020",
-            "comment" : "Creating an <b>open-source</b> <a href='https://fondation.msf.fr/projets/antibiogo'>mobile-health application</a> for <b>Médecins Sans Frontières Foundation</b> (MSF) for fighting antibiotic resistance. " +
+            "comment" : "R&D - Lead dev. Creating an <b>open-source</b> <a href='https://fondation.msf.fr/projets/antibiogo'>mobile-health application</a> for <b>Médecins Sans Frontières Foundation</b> (MSF) for fighting antibiotic resistance. " +
                 "The app is an offline <b>AI</b> that assists lab technicians in reading a biomedical test from an image taken with a smartphone." +
                 "<br>" +
                 "The project was awarded the <a href='https://www.blog.google/outreach-initiatives/google-org/ai-impact-challenge-grantees/'>Google AI Impact Challenge 2019</a>, among more than 2600 applications worldwide. It was granted 1.3M$ "+
@@ -164,7 +164,7 @@ data = {
         [
             {
                 "where" : "Attitude",
-                "comment": "Collaborative, curious, hard working, seeking beauty in what I do. Meeting and learning are my first motivations.",
+                "comment": "Collaborative, curious, hard working, seeking beauty in what I do. Creativity and learning are my first motivations.",
                 "display" : true
             },
             {
