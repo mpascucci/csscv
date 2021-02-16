@@ -20,24 +20,32 @@ data = {
         "linkedinIcon" : "https://fr.linkedin.com/in/marco-pascucci-302aaa174",
         "scholarIcon" : "https://scholar.google.fr/citations?user=JHuiyroAAAAJ",
         "researchGate" : "https://www.researchgate.net/",
-        "motto": "Dynamic and enthusiastic postdoc researcher, always ready for a good challenge."
+        "motto": "Dynamic and enthusiastic postdoc researcher, always ready for creative and innovative projects."
     },
     "educationList":
         [   {
                 "title": "About me",
                 "where" : "About me",
                 "date" : "",
-                "comment" : "My education, research experience and interests are oriented towards computer science and image processing. I enjoy developing software. I have taught classes of scientific programming (R/Python), probability and statistics. I have supervised two Master students.<br>",
+                "comment" : "My education, research experience and interests are oriented towards computer science. I enjoy developing software. I have taught classes of probability and statistics and scientific programming (R/Python). I have supervised two Master students.<br>",
+                "display" : true
+            },
+            {
+                "title": "PostDoc",
+                "where" : "CEA - Neurospin",
+                "date" : "nov 2020 - now",
+                "comment" : "FolDico team<br>"+
+                  "The FolDico team tries to decyper the mistery of the folding structure in the human brain and to link it to functional aspects.",
                 "display" : true
             },
             {
                 "title": "PostDoc",
                 "where" : "LaMME",
-                "date" : "dec 2017 - now",
+                "date" : "dec 2017 - sept 2020",
                 "comment" : "Laboratoire de Mathématiques et Modélisation d'Évry LaMME (UMR 8071).<br>"+
                   "in collaboration with MSF (see Projects).<br>"+
-                  "I designed original image processing algorithms and implemented a C++ library, which is embedded in a mobile app. I wrote Python wrappings for the same library."+
-                  " I designed an ExpertSystem engine and a Domain Specific Language (DSL) for microbiologists plus a web interface for internal test purposes.",
+                  "I designed a dedicated image processing library (C++) with python wrappings, embedded in a mobile app.."+
+                  "I designed an ExpertSystem engine and a Domain Specific Language (DSL) for microbiologists plus a web interface for internal test purposes.",
                 "display" : true
             },
             {
@@ -86,35 +94,42 @@ data = {
             },
         ],
     "experienceList":
-        [
+        [   {
+            "title": "FolDico",
+            "where" : "CEA - Neurospin",
+            "date" : "nov 2020 - now",
+            "comment" : "Building a dictionary of the folding patterns in the human brain.",
+            "dev skills": "Skills: 3D image processing, Python, ML",
+            "display" : true
+            },
             {
-                "title": "R&D (lead developer)",
-                "where" : "MSF Foundation",
-                "date" : "dec 2017 - now",
-                "comment" : "Creating an <b>open-source</b> <a href='https://fondation.msf.fr/projets/astapp'>mobile-health application</a> for <b>Médecins Sans Frontières Foundation</b> (MSF) for fighting antibiotic resistance. " +
-                  "The app is an offline <b>AI</b> that assists lab technicians in reading a biomedical test from an image taken with a smartphone." +
-                  "<br>" +
-                  "The project was awarded the <a href='https://www.blog.google/outreach-initiatives/google-org/ai-impact-challenge-grantees/'>Google AI Impact Challenge 2019</a>, among more than 2600 applications worldwide. It was granted 1.3M$ "+
-                  "and further boosted by the close collaboration with Google fellows, working together on the different aspects of the app development."+
-                  "<br>"+
-                  "Hired a software developper to comply with project deadlines.",
-                "dev skills": "Skills: Image processing, Python, C++, openCV,  Cython, js, Git",
-                "display" : true
+            "title": "An AI-based mobile app to fight antibiotic resistance",
+            "where" : "MSF Foundation",
+            "date" : "dec 2017 - sept 2020",
+            "comment" : "R&D - Lead dev. Creating an <b>open-source</b> <a href='https://fondation.msf.fr/projets/antibiogo'>mobile-health application</a> for <b>Médecins Sans Frontières Foundation</b> (MSF) for fighting antibiotic resistance. " +
+                "The app is an offline <b>AI</b> that assists lab technicians in reading a biomedical test from an image taken with a smartphone." +
+                "<br>" +
+                "The project was awarded the <a href='https://www.blog.google/outreach-initiatives/google-org/ai-impact-challenge-grantees/'>Google AI Impact Challenge 2019</a>, among more than 2600 applications worldwide. It was granted 1.3M$ "+
+                "and further boosted by the close collaboration with Google fellows, working together on the different aspects of the app development."+
+                "<br>"+
+                "Hired a software developper to comply with project deadlines.",
+            "dev skills": "Skills: Image processing, Python, C++, openCV,  Cython, js, Git",
+            "display" : true
             }
         ],
     "Publications":
         [
             {
-            "date" : "2020",
-            "journal" : "pending submission",
+            "date" : "2021",
+            "journal" : "Nature Communications (accepted)",
             "authors" : "M. Pascucci, et Al.",
-            "paperTitle" : "AntibioGo: the first AI-based mobile application for Antibiotic Resistance Testing",
+            "paperTitle" : "AI-based mobile application to fight antibiotic resistance.",
             "display" : true,
             "url" : ""
             },
             {
             "date" : "2020",
-            "journal" : "pending submission",
+            "journal" : "submitted",
             "authors" : "V. Runge, N. Deschamps de Boishebert, M. Pascucci, G. Rigaill",
             "paperTitle" : "Efficient Change-in-Slope Optimal Partitioning Algorithm in a Finite-Size Parameter Space",
             "display" : true,
@@ -122,7 +137,7 @@ data = {
             },
             {
             "date" : "2019",
-            "journal" : "Nat Com",
+            "journal" : "Nature Communications",
             "authors" : "M. Pascucci, S. Ganesan, A. Tripathi, O. Katz, V. Emiliani, M. Guillon",
             "paperTitle" : "Compressive three-dimensional super-resolution microscopy with speckle-saturated fluorescence excitation",
             "display" : true,
@@ -149,12 +164,12 @@ data = {
         [
             {
                 "where" : "Attitude",
-                "comment": "Collaborative, curious, hard working, seeking beauty in what I do. Understanding and learning are my first motivations.",
+                "comment": "Collaborative, curious, hard working, seeking beauty in what I do. Creativity and learning are my first motivations.",
                 "display" : true
             },
             {
                 "where" : "Languages",
-                "comment": "Italian (native) - French (proficient) - English (fluent) - German (good) - Spanish/portuguese (notions)",
+                "comment": "Italian (native) - French (proficient) - English (fluent) - German (good) - Spanish/portuguese (notions) - trying to learn arabic now",
                 "display" : true
             },
             {
