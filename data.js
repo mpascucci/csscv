@@ -164,7 +164,7 @@ data = {
         [
             {
                 "where" : "Attitude",
-                "comment": "Collaborative, curious, hard working, seeking beauty in what I do. Creativity and learning are my first motivations.",
+                "comment": "Collaborative, curious, seeking beauty in what I do. Creativity and learning are my first motivations.",
                 "display" : true
             },
             {
