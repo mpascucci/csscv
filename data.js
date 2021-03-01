@@ -121,11 +121,11 @@ data = {
         [
             {
             "date" : "2021",
-            "journal" : "Nature Communications (accepted)",
+            "journal" : "Nature Communications",
             "authors" : "M. Pascucci, et Al.",
             "paperTitle" : "AI-based mobile application to fight antibiotic resistance.",
             "display" : true,
-            "url" : ""
+            "url" : "https://www.nature.com/articles/s41467-021-21187-3#citeas"
             },
             {
             "date" : "2020",
@@ -133,7 +133,7 @@ data = {
             "authors" : "V. Runge, N. Deschamps de Boishebert, M. Pascucci, G. Rigaill",
             "paperTitle" : "Efficient Change-in-Slope Optimal Partitioning Algorithm in a Finite-Size Parameter Space",
             "display" : true,
-            "url" : ""
+            "url" : "https://arxiv.org/abs/2012.11573"
             },
             {
             "date" : "2019",
