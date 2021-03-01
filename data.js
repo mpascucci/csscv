@@ -125,7 +125,7 @@ data = {
             "authors" : "M. Pascucci, et Al.",
             "paperTitle" : "AI-based mobile application to fight antibiotic resistance.",
             "display" : true,
-            "url" : "https://www.nature.com/articles/s41467-021-21187-3#citeas"
+            "url" : "https://doi.org/10.1038/s41467-021-21187-3"
             },
             {
             "date" : "2020",
