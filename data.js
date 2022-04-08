@@ -107,7 +107,7 @@ data = {
             "where": "ICM - Paris",
             "date": "nov 2021 - now",
             "comment": "Analisys of 3D functional images of the zebrafish brain over minutes of activity.",
-            "dev skills": "Skills: 3D image processing, Python, ML",
+            "dev skills": "Skills: 3D image processing, Microscopy, Python",
             "display": true
         },
         {
