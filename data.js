@@ -99,7 +99,7 @@ data = {
             "where": "CEA - Neurospin",
             "date": "nov 2020 - now",
             "comment": "Building a dictionary of the folding patterns in the human brain.",
-            "dev skills": "Skills: 3D image processing, Python, ML",
+            "dev skills": "Skills: 3D image processing, MRI Images, Python, ML",
             "display": true
         },
         {
