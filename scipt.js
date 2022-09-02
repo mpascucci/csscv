@@ -60,7 +60,7 @@ function fillSection(sectionName) {
 }
 
 // fill-in spectial sections
-var specialSections = ["educationList", "experienceList", "Publications", "Miscellaneous"];
+var specialSections = ["educationList", "experienceList", "pastExperienceList", "Publications", "Miscellaneous"];
 for (var i=0; i<specialSections.length;i++) {
     sectionName = specialSections[i];
     if (document.getElementsByClassName(sectionName).length == 1) {

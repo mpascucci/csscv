@@ -11,29 +11,29 @@ data = {
         // "photo" : "https://d6d2h4gfvy8t8.cloudfront.net/8481511-orig.jpg",
         "photo": "http://makeitaflair.altervista.org/photos/DSCF8365_crop.jpg",
         "name": "Marco Pascucci",
-        "email": "marco.pascucci@univ-evry.fr",
-        "emailIcon": "marco.pascucci@univ-evry.fr",
+        "email": "mpascucci@aup.edu",
+        "emailIcon": "mpascucci @ aup.edu",
         // "telephone" : "0000000",
         "addressLine1": "Marco Pascucci",
         "addressLine2": "75020 - Paris (France)",
         "github": "http://mpascucci.github.io/",
-        "linkedinIcon": "https://fr.linkedin.com/in/marco-pascucci-302aaa174",
+        //"linkedinIcon": "https://fr.linkedin.com/in/marco-pascucci-302aaa174",
         "scholarIcon": "https://scholar.google.fr/citations?user=JHuiyroAAAAJ",
         "researchGate": "https://www.researchgate.net/",
-        "motto": "Computer Scientist and enthusiastic software engineer, always ready for creative and interdisciplinary projects."
+        "motto": "CS Professor, Computer Scientist and enthusiastic software engineer,<br>always ready for creative and interdisciplinary projects."
     },
     "educationList":
         [{
-            "title": "About me",
+            "title": "",
             "where": "About me",
             "date": "",
-            "comment": "My education, research experience and interests are oriented towards computer science. I enjoy developing software. I have taught classes of probability and statistics and scientific programming (R/Python). I have supervised two Master students.<br>",
+            "comment": "I am a teacher, scientist and a developer. My education, research experience and interests are oriented towards computer science and applications to image processing.<br> I proudly use, share and diffuse open-source software.",
             "display": true
         },
         {
             "title": "PostDoc",
             "where": "CEA - Neurospin",
-            "date": "nov 2020 - now",
+            "date": "Nov 2020 - July 2022",
             "comment": "FolDico team<br>" +
                 "The FolDico team tries to decyper the mistery of the folding structure in the human brain and to link it to functional aspects.",
             "display": true
@@ -41,7 +41,7 @@ data = {
         {
             "title": "PostDoc",
             "where": "LaMME",
-            "date": "dec 2017 - sept 2020",
+            "date": "Dec 2017 - Sept 2020",
             "comment": "Laboratoire de Mathématiques et Modélisation d'Évry LaMME (UMR 8071).<br>" +
                 "in collaboration with MSF (see Projects).<br>" +
                 "I designed a dedicated image processing library (C++) with python wrappings, embedded in a mobile app.." +
@@ -51,7 +51,7 @@ data = {
         {
             "title": "PhD in physics",
             "where": "Neurophotonics lab",
-            "date": "oct 2017",
+            "date": "Oct 2017",
             "comment": "at Université de Paris. Thesis in super-resolution optical microscopy (adv. M.Guillon, V.Emiliani).",
             "skills": "Image processing, super-resolution microscopy",
             "display": true
@@ -59,21 +59,21 @@ data = {
         {
             "title": "MS in computer science",
             "where": "CNAM",
-            "date": "dec 2016",
+            "date": "Dec 2016",
             "comment": "Secure Embedded Systems (at Conservatoire National des Arts et Metiers, Paris). I did a 6 month internship developing a driver for a 2-axis plotter and a rudimental static type-checker for python in OCaml.",
             "display": true
         },
         {
             "title": "Research intern",
             "where": "MSC",
-            "date": "may - june 2014",
+            "date": "May - June 2014",
             "comment": "Laboratoire Matière et Systèmes Complexes, Université Paris Diderot",
             "display": true
         },
         {
             "title": "MS bio-physics",
             "where": "University of Rome",
-            "date": "may 2013",
+            "date": "May 2013",
             "comment": "Tor Vergata University - Rome, IT ",
             "display": true
         },
@@ -95,25 +95,33 @@ data = {
         ],
     "experienceList":
         [{
+            "title": "Assistant professor of Computer Science",
+            "where": "AUP Paris",
+            "date" : "Sept 2022 - now",
+            "comment" : "teaching Computer programming, database applications and web authoring",
+            "display" : true
+        },
+        {
             "title": "FolDico",
             "where": "CEA - Neurospin",
-            "date": "nov 2020 - now",
+            "date": "Nov 2020 - now",
             "comment": "Building a dictionary of the folding patterns in the human brain.",
-            "dev skills": "Skills: 3D image processing, MRI Images, Python, ML",
+            "dev skills": "Skills: 3D image processing, Point-Clouds, MRI Images, Python/C, ML",
             "display": true
         },
         {
             "title": "Microscopy and neural circuits",
             "where": "ICM - Paris",
-            "date": "nov 2021 - now",
-            "comment": "Analisys of 3D functional images of the zebrafish brain over minutes of activity.",
-            "dev skills": "Skills: 3D image processing, Microscopy, Python",
+            "date": "Nov 2021 - now",
+            "comment": "Analisys of 3D functional volumetric images of the zebrafish brain over minutes of activity.",
+            "dev skills": "Skills: 3D video processing, Cluster computing, Microscopy, Python/Bash",
             "display": true
-        },
-        {
+        }],
+    "pastExperienceList":
+        [{
             "title": "An AI-based mobile app to fight antibiotic resistance",
             "where": "MSF Foundation",
-            "date": "dec 2017 - sept 2020",
+            "date": "Dec 2017 - Sept 2020",
             "comment": "R&D - Lead dev. Creating an <b>open-source</b> <a href='https://fondation.msf.fr/projets/antibiogo'>mobile-health application</a> for <b>Médecins Sans Frontières Foundation</b> (MSF) for fighting antibiotic resistance. " +
                 "The app is an offline <b>AI</b> that assists lab technicians in reading a biomedical test from an image taken with a smartphone." +
                 "<br>" +
@@ -123,13 +131,12 @@ data = {
                 "Hired a software developper to comply with project deadlines.",
             "dev skills": "Skills: Image processing, Python, C++, openCV,  Cython, js, Git",
             "display": true
-        }
-        ],
+        }],
     "Publications":
         [
             {
                 "date": "2021",
-                "journal": "Nature Communications",
+                "journal": "Nature Comm.",
                 "authors": "M. Pascucci, et Al.",
                 "paperTitle": "AI-based mobile application to fight antibiotic resistance.",
                 "display": true,
@@ -145,7 +152,7 @@ data = {
             },
             {
                 "date": "2019",
-                "journal": "Nature Communications",
+                "journal": "Nature Comm.",
                 "authors": "M. Pascucci, S. Ganesan, A. Tripathi, O. Katz, V. Emiliani, M. Guillon",
                 "paperTitle": "Compressive three-dimensional super-resolution microscopy with speckle-saturated fluorescence excitation",
                 "display": true,
@@ -153,7 +160,7 @@ data = {
             },
             {
                 "date": "2016",
-                "journal": "Phys Rev Lett",
+                "journal": "Phys. Rev. Lett.",
                 "authors": "M. Pascucci, G. Tessier, V. Emiliani, M. Guillon",
                 "paperTitle": "Superresolution imaging of optical vortices in a speckle pattern",
                 "display": true,
@@ -162,7 +169,7 @@ data = {
             {
                 "date": "2014",
                 "authors": "F. Stellato, V. Minicozzi, G. L. Millhauser, M. Pascucci, O. Proux, G. C. Rossi, A. Spevacek, S. Morante",
-                "journal": "Eur Biophys J",
+                "journal": "Eur. Biophys. J.",
                 "paperTitle": "Copper–zinc cross-modulation in prion protein binding",
                 "display": true,
                 "url": "https://link.springer.com/article/10.1007/s00249-014-0993-6"
@@ -192,7 +199,7 @@ data = {
             },
             {
                 "where": "other exp",
-                "comment": "Organization of 8 editions of an international music festival.",
+                "comment": "Organization of an international music festival in Rome since 2010.",
                 "display": true
             }
         ]
