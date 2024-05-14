@@ -102,6 +102,13 @@ data = {
             "display": true
         },
         {
+            "title": "Research & Dev",
+            "where": "SpirOps AI",
+            "date": "April - july 2023",
+            "comment": "Development of a POC for a real time video stream segmentation algorithm for processing 3D pointclouds data acquired by depth cameras. The software analyzes sceenes of passengers in a train and identifies abandoned luggage items.",
+            "display": true
+        },
+        {
             "title": "FolDico",
             "where": "CEA - Neurospin",
             "date": "Nov 2020 - now",
