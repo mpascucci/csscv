@@ -97,9 +97,9 @@ data = {
         [{
             "title": "Assistant professor of Computer Science",
             "where": "AUP Paris",
-            "date" : "Sept 2022 - now",
-            "comment" : "teaching Computer programming, database applications and web authoring",
-            "display" : true
+            "date": "Sept 2022 - now",
+            "comment": "teaching Computer programming, database applications and web authoring",
+            "display": true
         },
         {
             "title": "FolDico",
@@ -134,6 +134,46 @@ data = {
         }],
     "Publications":
         [
+            {
+                "date": "2023",
+                "journal": "Nature Neuroscience",
+                "authors": "M Carbo-Tano, M Lapoix, X Jia, O Thouvenin, M Pascucci, ..., Claire Wyart",
+                "paperTitle": "The mesencephalic locomotor region recruits V2a reticulospinal neurons to drive forward locomotion in larval zebrafish.",
+                "display": true,
+                "url": "https://doi.org/10.1038/s41593-023-01418-0"
+            },
+            {
+                "date": "2023",
+                "journal": "Cerebral Cortex",
+                "authors": "H De Vareilles, D Rivière, M Pascucci, ZY Sun, C Fischer, F Leroy, ...",
+                "paperTitle": "Exploring the emergence of morphological asymmetries around the brain’s Sylvian fissure: A longitudinal study of shape variability in preterm infants.",
+                "display": true,
+                "url": "https://link.springer.com/chapter/10.1007/978-3-031-16431-6_8"
+            },
+            {
+                "date": "2022",
+                "journal": "International conference on medical image computing and computer-assisted intervention",
+                "authors": "J Chavas, L Guillon, M Pascucci, B Dufumier, D Rivière, JF Mangin",
+                "paperTitle": "Unsupervised representation learning of cingulate cortical folding patterns.",
+                "display": true,
+                "url": "https://link.springer.com/chapter/10.1007/978-3-031-16431-6_8"
+            },
+            {
+                "date": "2022",
+                "journal": "bioRxiv",
+                "authors": "H de Vareilles, D Rivière, M Pascucci, Z Sun, C Fischer, F Leroy, ...",
+                "paperTitle": "Exploring the emergence of morphological asymmetries around the brain’s Sylvian fissure: a longitudinal study of shape variability in preterm infants.",
+                "display": true,
+                "url": "https://doi.org/10.1101/2022.07.15.500199"
+            },
+            {
+                "date": "2022",
+                "journal": "bioRxiv",
+                "authors": "H de Vareilles, D Rivière, M Pascucci, Z Sun, C Fischer, F Leroy, ...",
+                "paperTitle": "Exploring the emergence of morphological asymmetries around the brain’s Sylvian fissure: a longitudinal study of shape variability in preterm infants.",
+                "display": true,
+                "url": "https://doi.org/10.1038/s41467-021-21187-3"
+            },
             {
                 "date": "2021",
                 "journal": "Nature Comm.",
