@@ -95,10 +95,17 @@ data = {
         ],
     "experienceList":
         [{
+            "title": "Associate professor of Computer Science",
+            "where": "John Cabot University, Rome",
+            "date": "Sept 2025 - now",
+            "comment": "teaching computer programming, web applications and AI classes",
+            "display": true
+         },
+         {
             "title": "Assistant professor of Computer Science",
-            "where": "AUP Paris",
-            "date": "Sept 2022 - now",
-            "comment": "teaching Computer programming, database applications and web authoring",
+            "where": "American University of Paris",
+            "date": "Sept 2022 - sept 2025",
+            "comment": "teaching various classes in CS and Maths",
             "display": true
         },
         {
