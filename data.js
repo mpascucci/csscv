@@ -11,7 +11,7 @@ data = {
         // "photo" : "https://d6d2h4gfvy8t8.cloudfront.net/8481511-orig.jpg",
         "photo": "http://makeitaflair.altervista.org/photos/DSCF8365_crop.jpg",
         "name": "Marco Pascucci",
-        "email": "mpascucci@aup.edu",
+        "email": "marco.pascucci@johncabot.edu",
         "emailIcon": "mpascucci @ aup.edu",
         // "telephone" : "0000000",
         "addressLine1": "Marco Pascucci",
